@@ -1,6 +1,6 @@
 <template>
     <div class="body">
-      <div class="ok">
+      <div class="color">
         <Calculator/>
       </div>
     </div>
@@ -14,7 +14,7 @@
     justify-content: center;
   }
 
-  .ok {
+  .color {
     margin-top: 100px;
   }
   
@@ -25,5 +25,6 @@
 export default {
   components: {  },
   name: 'IndexPage'
+  
 }
 </script>
